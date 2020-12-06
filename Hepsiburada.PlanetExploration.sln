@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hepsiburada.PlanetExploration.ConsoleApp", "Hepsiburada.PlanetExploration.ConsoleApp\Hepsiburada.PlanetExploration.ConsoleApp.csproj", "{0D7D0E80-83FB-4FD3-9C62-F7E1591782DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PlanetExplorer", "PlanetExplorer", "{600C69CF-1019-4340-8783-38A23D020920}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hepsiburada.PlanetExploration.Domain.Shared", "Hepsiburada.PlanetExploration.Domain.Shared\Hepsiburada.PlanetExploration.Domain.Shared.csproj", "{F1323F15-CA49-4B77-B0E4-F4E2C2431197}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hepsiburada.PlanetExploration.Domain", "Hepsiburada.PlanetExploration.Domain\Hepsiburada.PlanetExploration.Domain.csproj", "{3DC669C1-3C93-40B1-9970-C3283EEAA063}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hepsiburada.PlanetExploration.ApplicationContract", "Hepsiburada.PlanetExploration.ApplicationContract\Hepsiburada.PlanetExploration.ApplicationContract.csproj", "{440034DE-5A8F-45F0-A487-17C5FFB5099F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hepsiburada.PlanetExploration.Application", "Hepsiburada.PlanetExploration.Application\Hepsiburada.PlanetExploration.Application.csproj", "{6F3F940D-9C2B-43E2-BA25-AE9F0F22DF7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hepsiburada.PlanetExploration.Tests", "Hepsiburada.PlanetExploration.Tests\Hepsiburada.PlanetExploration.Tests.csproj", "{580C7A03-5AB6-463D-95BC-83DE811C0B05}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D7D0E80-83FB-4FD3-9C62-F7E1591782DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D7D0E80-83FB-4FD3-9C62-F7E1591782DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D7D0E80-83FB-4FD3-9C62-F7E1591782DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D7D0E80-83FB-4FD3-9C62-F7E1591782DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1323F15-CA49-4B77-B0E4-F4E2C2431197}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1323F15-CA49-4B77-B0E4-F4E2C2431197}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1323F15-CA49-4B77-B0E4-F4E2C2431197}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1323F15-CA49-4B77-B0E4-F4E2C2431197}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DC669C1-3C93-40B1-9970-C3283EEAA063}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DC669C1-3C93-40B1-9970-C3283EEAA063}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DC669C1-3C93-40B1-9970-C3283EEAA063}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DC669C1-3C93-40B1-9970-C3283EEAA063}.Release|Any CPU.Build.0 = Release|Any CPU
+		{440034DE-5A8F-45F0-A487-17C5FFB5099F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{440034DE-5A8F-45F0-A487-17C5FFB5099F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{440034DE-5A8F-45F0-A487-17C5FFB5099F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{440034DE-5A8F-45F0-A487-17C5FFB5099F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F3F940D-9C2B-43E2-BA25-AE9F0F22DF7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F3F940D-9C2B-43E2-BA25-AE9F0F22DF7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F3F940D-9C2B-43E2-BA25-AE9F0F22DF7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F3F940D-9C2B-43E2-BA25-AE9F0F22DF7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{580C7A03-5AB6-463D-95BC-83DE811C0B05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{580C7A03-5AB6-463D-95BC-83DE811C0B05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{580C7A03-5AB6-463D-95BC-83DE811C0B05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{580C7A03-5AB6-463D-95BC-83DE811C0B05}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F1323F15-CA49-4B77-B0E4-F4E2C2431197} = {600C69CF-1019-4340-8783-38A23D020920}
+		{3DC669C1-3C93-40B1-9970-C3283EEAA063} = {600C69CF-1019-4340-8783-38A23D020920}
+		{440034DE-5A8F-45F0-A487-17C5FFB5099F} = {600C69CF-1019-4340-8783-38A23D020920}
+		{6F3F940D-9C2B-43E2-BA25-AE9F0F22DF7C} = {600C69CF-1019-4340-8783-38A23D020920}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4CF1345A-1CF8-4F6E-9B77-AB6D3CDBFBAE}
+	EndGlobalSection
+EndGlobal
